@@ -1,0 +1,19 @@
+export default [
+'over-view-of-indian-parliamentary-results',
+'political-spectrum',
+'vote-share-and-growth',
+'electors-voters-details',
+'political-alliances-of-india',
+'delhi-over-view-of-legislative-results',
+'delhi-electors-voters-details',
+'constitution',
+'delhi-vote-share-and-growth',
+'tn-electors-voters-details',
+'tn-over-view-of-legislative-results',
+'tn-vote-share-and-growth',
+'leftism',
+'rightism',
+'centrism',
+'bjp-major-milestone',
+'inc-major-milestone'
+]
