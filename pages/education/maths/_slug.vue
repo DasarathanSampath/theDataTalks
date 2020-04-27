@@ -1,62 +1,59 @@
 <template>
-  <div>
-    <BlogCards
-      :blogs="blogs"
-      section="education"
-    />
+  <div class="blogContent">
+    <h1 class="blogCard__title">
+      {{ title }}
+    </h1>
+    <h2 class="blogCard__desc">
+      {{ description }}
+    </h2>
+    <h3 class="blogCard__date">
+      {{ date }}
+    </h3>
+    <!-- eslint-disable-next-line -->
+    <span ref="mathJaxEl" class="e-mathjax" v-html="content" />
   </div>
 </template>
 
 <script>
-import BlogCards from '~/components/blogCardLayoutEducation.vue'
-import blogsEn from '~/docs/en/education/blogsEn.js'
-import blogsTa from '~/docs/ta/education/blogsTa.js'
 const fm = require('front-matter')
 const md = require('markdown-it')({
   html: true,
   linkify: true,
-  typographer: true
+  typographer: true,
+  injected: true,
+  breaks: false,
+  use: [
+    'markdown-it-mathjax',
+    'markdown-it-container',
+    'markdown-it-attrs'
+  ]
 })
 export default {
-  components: {
-    BlogCards
-  },
-  async asyncData ({ app, params, error }) {
-  const blogs = app.i18n.locale === 'en' ? blogsEn : blogsTa
-        /* const slug = route.params.slug */
+    async asyncData ({ app, params, route, error }) {
+      const slug = route.params.slug
       let page
       try {
-        page = await import(`~/docs/${app.i18n.locale}/index.md`)
+        page = await import(`~/docs/${app.i18n.locale}/education/${slug}.md`)
       } catch (err) {
           if (err.response.status !== 404) {
           return error({ statusCode: 500, message: '500 error' })
         }
         return error({ statusCode: 404, message: '404 error' })
       }
-  /* const fileImport = await import(`~/docs/${app.i18n.locale}/index.md`) */
-  const fileContent = fm(page.default)
-  const attributes = fileContent.attributes
-  async function asyncImport (blogName) {
-      const wholeMD = await import(`~/docs/${app.i18n.locale}/education/${blogName}.md`)
-      const res = fm(wholeMD.default)
-      return res.attributes
-    }
-    return Promise.all(blogs.map(blog => asyncImport(blog)))
-    .then((res) => {
+      const fileContent = fm(page.default)
+      const attributes = fileContent.attributes
       return {
-        blogs: res,
         title: attributes.title,
         description: attributes.desc,
         date: attributes.date,
         noMainImage: attributes.noMainImage,
         content: md.render(fileContent.body),
         name: attributes.name,
-        imgDesc: attributes.imgDesc,
         altLang: attributes.altLang
       }
-    })
-  },
-  computed: {
+    },
+
+    computed: {
       ogImage () {
         return `${process.env.baseUrl}/images/education/${this.name}/_thumbnail.png`
       },
@@ -78,6 +75,36 @@ export default {
         }
       }
     },
+
+  mounted () {
+    this.renderMathJax()
+  },
+      methods: {
+  /*   readMD () {
+      return this.md.render(this.content)
+    }, */
+
+    renderMathJax () {
+      if (window.MathJax) {
+        window.MathJax.Hub.Config({
+          tex2jax: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            processEscapes: true,
+            processEnvironments: true
+          },
+          // Center justify equations in code and markdown cells. Elsewhere
+          // we use CSS to left justify single line equations in code cells.
+          displayAlign: 'left',
+          'HTML-CSS': {
+            styles: { '.MathJax_Display': { margin: 0 } },
+            linebreaks: { automatic: true }
+          }
+        })
+        window.MathJax.Hub.Queue(['Typeset', window.MathJax.Hub, this.$refs.mathJaxEl])
+      }
+    }
+  },
     head () {
       return {
         title: this.pageTitle,
@@ -94,12 +121,19 @@ export default {
         ],
         link: [
           this.hreflang
-        ]
+        ],
+        script: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML' }
+    ]
       }
     }
+
 }
 </script>
 
 <style lang="scss">
+.e-mathjax{
+    text-align: left;
 
+}
 </style>

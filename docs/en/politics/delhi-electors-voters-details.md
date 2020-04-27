@@ -2,8 +2,7 @@
 date: 17 Feb 2019
 desc: NCT of Delhi electors and voters details for each election years
 id: 'delhi-electors-voters-details'
-imgDesc: Image is a Bar chart and it shows the total number of electors & voters
-    for each election years of Delhi 
+imgDesc: Image is a Bar chart and it shows the total number of electors & voters for each election years of Delhi 
 name: 'delhi-electors-voters-details'
 noMainImage: True
 output:
@@ -27,7 +26,7 @@ Voters - Electors who had casted their votes
 <img src="/blogs/delhi-electors-voters-details/figure-markdown/img1.png" alt="alt text" class="blogs_image">
 <!-- ![](/blogs/delhi-electors-voters-details/figure-markdown/img1.png) -->
 
-The values above each bar represents the polling percentage
+The values above each bar represent the polling percentage
 (Voters/Electors). And the line across the bar chart represents the
 linear model regression line.
 
@@ -40,7 +39,7 @@ which is approximately **0.5%** lower when compared to **India's average
 polling percentage of 60%**.
 
 The above mentioned average values are calculated without considering
-1951 data, since there was a major change in elector's data from 1951 to
+1951 data since there was a major change in the elector's data from 1951 to
 1972.
 
 The total voters in the bar chart for the year 1951 were back-calculated
@@ -57,11 +56,10 @@ election**.
 1951 male/female voting values are not available; hence we have taken
 data from the year 1972. The below line chart clearly shows that the male
 & female voting percentage is travelling parallel to each other. Always
-female voting percentage is slightly lesser than male voting percentage.
+female voting percentage is slightly lesser than the male voting percentage.
 
 The average percentage of male voters is calculated to **60.29%**, which
-is just **0.29%** higher when compared to **India's average polling
-percentage of 60%**. The average percentage of female voters is
+is just **0.29%** higher when compared to **India's average polling percentage of 60%**. The average percentage of female voters is
 calculated to **58.23%**, which is **1.77%** lower when compared to
 **India's average polling percentage of 60%**.
 

@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import BlogCards from '~/components/blogCardLayout.vue'
+import BlogCards from '~/components/blogCardLayoutOthers.vue'
 import blogsEn from '~/docs/en/others/blogsEn.js'
 import blogsTa from '~/docs/ta/others/blogsTa.js'
 const fm = require('front-matter')

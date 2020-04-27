@@ -2,15 +2,12 @@
 date: 31 Dec 2019
 desc: Ruling years of various parties and Legislative constituency details
 id: 'tn-over-view-of-legislative-results'
-imgDesc: Image is a Pie chart and it shows the percentage ruling years of various parties
+imgDesc: Image is a Pie chart and it shows the percentage of ruling years of various parties
 name: 'tn-over-view-of-legislative-results'
 noMainImage: True
-output:
-  md_document:
-    variant: 'markdown+backtick\_code\_blocks-fenced\_code\_attributes-header\_attributes'
 title: Over View of Tamil Nadu Legislative results
 trans: 'தமிழ் நாடு-சட்டமன்ற -முடிவுகளின்-பார்வை'
-altLang: false
+altLang: true
 ---
 
 ### Ruling Parties:
@@ -36,12 +33,12 @@ Madras state were separated.
 
 1.  Coastal Andhra & Rayalaseema were separated to form the state of
     Andhra Pradesh\
-2.  South Canara & Bellary district were separated to form Mysore state\
+2.  South Canara & Bellary district was separated to form Mysore state\
 3.  Malabar district was separated to form Kerala
 
-The state of Madras had 309 assembly constituencies during 1951
-election. Out of which 243 were single member constituencies & 66 were
-dual member constituencies. In the 1957 election, the state of TamilNadu
+The state of Madras had 309 assembly constituencies during the 1951
+election. Out of which 243 were single-member constituencies & 66 were
+dual-member constituencies. In the 1957 election, the state of TamilNadu
 had 167 assembly constituencies in which 129 were single member
 constituencies and 38 dual member constituencies. **Dual member
 constituency** -- A single constituency will be represented by two
@@ -50,10 +47,10 @@ world. India had dual member constituency until 1961 and abolition of
 dual member constituency act was introduced in 1961. From 1967 the state
 has 234 assembly constituencies until 2019.
 
-### Tamil Nadu cheif ministers list:
+### Tamil Nadu chief ministers list:
 
 The below table shows the list of chief ministers of Tamil Nadu with
-starting date, end date, number of days in the post and party name.
+starting date, end date, number of days in the post, and party name.
 
 <img src="/politics/tn-over-view-of-legislative-results_files/figure-markdown/tn-chief-ministers-1.png" alt="alt text" class="blogs_image">
 <!-- ![](/politics/tn-over-view-of-legislative-results_files/figure-markdown/tn-chief-ministers-1.png) -->

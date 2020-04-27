@@ -16,7 +16,10 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap"},
       {href:"https://fonts.googleapis.com/css2?family=Pavanam&display=swap", rel: "stylesheet"}
-    ]
+    ],
+    script: [
+
+  ]
   },
   /*
   ** Customize the progress-bar color
@@ -35,7 +38,7 @@ export default {
   plugins: [
     '~/plugins/globalComponents',
     '~/plugins/lazyload',
-    { src: '~plugins/ga.js', ssr: false },    
+    { src: '~plugins/ga.js', ssr: false },
   ],
   /*
   ** Nuxt.js dev-modules
@@ -53,8 +56,21 @@ export default {
     '@nuxtjs/sitemap',
     ['@nuxtjs/google-gtag', { /* module options */ }],
     ['@nuxtjs/google-tag-manager', { }],
-    '@nuxtjs/google-adsense'
+    '@nuxtjs/google-adsense',
+    
   ],
+/*   markdownit: {
+    injected: true,
+    preset: 'default',
+    linkify: true,
+    html: true,
+    breaks: false,
+    use: [
+      'markdown-it-mathjax',
+      'markdown-it-container',
+      'markdown-it-attrs'
+    ]
+  }, */
   sitemap:{
     /* hostname: 'http://thedatatalks.in', */
     lastmod: '2020-04-09',
@@ -88,6 +104,7 @@ export default {
         '/economics/recurring-deposit',
         '/others/gun-powder-chicken',
         '/others/garlic-sauteed-vegetables',
+        '/others/sponge-cake',
         '/education/pm25-tn-chennai-alandur',
         '/education/pm25-tl-hyderabad-sanathnagar',
         '/education/covid19-corona-virus-world-data',
@@ -104,11 +121,17 @@ export default {
         '/ta/politics/vote-share-and-growth',
         '/ta/politics/over-view-of-indian-parliamentary-results',
         '/ta/politics/political-spectrum',
+        '/ta/politics/tn-electors-voters-details',
+        '/ta/politics/tn-over-view-of-legislative-results',
+        '/ta/politics/tn-vote-share-and-growth',
+        '/ta/politics/delhi-over-view-of-legislative-results',
+        '/ta/politics/delhi-electors-voters-details',
         '/ta/economics/analysis-on-imports-and-exports-of-india',
         '/ta/economics/nifty50-10year-bond-yield',
         '/ta/economics/compound-interest',
         '/ta/economics/recurring-deposit',
-        '/ta/others/gun-powder-chicken',
+        '/ta/others/gun-powder-chicken',  
+        '/ta//others/sponge-cake',
         '/ta/education/pm25-tn-chennai-alandur',
         '/ta/education/covid19-corona-virus-world-data',
         '/ta/education/covid19-corona-virus-india-data',

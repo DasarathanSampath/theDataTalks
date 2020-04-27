@@ -10,7 +10,7 @@ output:
     variant: 'markdown+backtick\_code\_blocks-fenced\_code\_attributes-header\_attributes'
 title: Tamil Nadu Legislative election
 trans: தமிழ் நாடு வாக்காளர்கள் மற்றும் வாக்கு செலுத்தியவர்கள்
-altLang: false
+altLang: true
 ---
 
 The below bar chart has the details of electors & voters for each
@@ -19,9 +19,9 @@ election years.
 -   x-axis variable E-YOY (Election year on year)
 -   Y-axis variable Total Electors & Voters
 
-Electors - Citizens who has eligibility to votes
+Electors - Citizens who have eligibility to votes
 
-Voters - Electors who had casted their votes
+Voters - Electors who had cast their votes
 
 <img src="/politics/tn-electors-voters-details_files/figure-markdown/Plot-Electors-Voters-1.png" alt="alt text" class="blogs_image">
 <!-- ![](/politics/tn-electors-voters-details_files/figure-markdown/Plot-Electors-Voters-1.png) -->
@@ -34,11 +34,11 @@ elector's growth of 13%**. The average polling percentage of Tamil Nadu
 falls at **67%**, which is approximately **7%** higher when compared to
 **India's average polling percentage of 60%**.
 
-The above mentioned average values are calculated with out considering
-1951 data, since there was a major change in constituencies in 1953.
+The above mentioned average values are calculated without considering
+1951 data since there was a major change in constituencies in 1953.
 
 The total voters in the bar chart for the year 1951 & 1957 were
-back-calculated from reported polling percentage, since Tamil Nadu had
+back-calculated from reported polling percentage since Tamil Nadu had
 dual member & single-member constituencies.
 
 ------------------------------------------------------------------------
@@ -49,7 +49,7 @@ dual member & single-member constituencies.
 taken data from the year 1962.
 
 The line chart clearly shows that the male & female voting percentage is
-travelling parallel to each other.
+traveling parallel to each other.
 
 Female voters in 2011 & 2016 were slightly more than male voters and it
 shows **women in Tamil Nadu have started showing more social
@@ -60,7 +60,7 @@ is **11.31%** higher when compared to **India's average polling
 percentage of 60%**.
 
 The average percentage of female voters is calculated to **67.48%**,
-which is **11.31%** higher when compared to **India's average polling
+which is **7.48%** higher when compared to **India's average polling
 percentage of 60%**.
 
 <img src="/politics/tn-electors-voters-details_files/figure-markdown/Plot-male-female-1.png" alt="alt text" class="blogs_image">

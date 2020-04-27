@@ -11,7 +11,8 @@ altLang: true
 <img src="/others/garlic-sauteed-vegetables/_thumbnail.png" alt="alt text" class="blogs_image">
 
 
-**Ingredients:**
+## Ingredients:
+
 1 tablespoon olive oil  
 1 teaspoon minced garlic  
 1/2 red bell pepper, chopped  
@@ -24,7 +25,7 @@ altLang: true
 2 tablespoons soy sauce   
 2 tablespoons chicken stock  
 
-**Directions:**
+## Instructions:  
 
 Set a large pan over medium-high heat, add olive oil and heat. Add garlic and saute for 1 minute. Add all of the vegetables and cook until just starting to wilt for about 2 minutes. Add oregano, soy sauce and chicken stock and stir well and cook just until vegetables are wilted, which may take around 3 minutes. Remove from heat and serve. 
 

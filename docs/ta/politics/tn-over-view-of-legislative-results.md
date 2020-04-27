@@ -1,19 +1,43 @@
 ---
 date: 31 Dec 2019
-desc: Ruling years of various parties and Legislative constituency details
-id: 'tn-over-view-of-legislative-results'
-imgDesc: Image is a Pie chart and it shows the percentage ruling years of various parties
+desc: பல்வேறு கட்சிகளின் ஆட்சி ஆண்டு மற்றும் சட்டமன்றத் தொகுதிகளின் விவரங்கள்
+imgDesc: படம் ஒரு பை விளக்கப்படம் மற்றும் இது பல்வேறு கட்சிகளின் ஆட்சி செய்த ஆண்டின் சதவீதத்தைக் காட்டுகிறது
 name: 'tn-over-view-of-legislative-results'
 noMainImage: True
-output:
-  md_document:
-    variant: 'markdown+backtick\_code\_blocks-fenced\_code\_attributes-header\_attributes'
-title: Over View of Tamil Nadu Legislative results
-trans: 'தமிழ் நாடு-சட்டமன்ற -முடிவுகளின்-பார்வை'
-altLang: false
+title: தமிழ் நாடு சட்டமன்ற முடிவுகளின் பார்வை
+altLang: true
 ---
 
-இந்த தரவு தமிழில் மொழி மாற்றம் செய்யப்படவில்லை. விரைவில் மொழி மாற்றம் செய்யப்படும்.
+### ஆளும் கட்சிகள்:
+
+1967 இல் தேசியக் கட்சிகளின் சகாப்தம் தமிழ்நாட்டில் முடிவு பெற்று மாநிலக் கட்சியான **திராவிட முன்னேற்ற கழகம்(திமுக)** தேர்தலில் வெற்றி பெற்று ஆட்சி செய்யத் தொடங்கியது.
+
+1967 முதல், எந்த ஒரு தேசிய கட்சிக்கும் மாநிலத்தை ஆள பெரும்பான்மை வாய்ப்புக் கிடைக்கவில்லை .  அன்றிலிருந்து திமுக அல்லது **அஇஅதிமுக/அதிமுக (அகில இந்திய அண்ணா திராவிட முன்னேற்ற கழகம்)** என்ற இரண்டு கட்சிகளும் தமிழ் நாட்டை ஆண்டு வருகின்றன. கீழே உள்ள பை விளக்க படம் இந்த கட்சிகளின் ஆட்சி ஆண்டின் சதவீதத்தை காட்டுகிறது.
+
+ஐஎன்சி(INC) ஆட்சி செய்த காலம்: 1952-1967  
+திமுக(DMK) ஆட்சி செய்த காலம்: 1967-1977 & 1989-1991 & 1996-2001 & 2006-2011  
+அஇஅதிமுக(AIADMK) ஆட்சி செய்த காலம்: 1977-1989 & 1991-1996 & 2001-2006 & 2011-2019  
+
+<img src="/politics/tn-over-view-of-legislative-results_files/figure-markdown/tn-rulers-1.png" alt="alt text" class="blogs_image">
+![](/politics/tn-over-view-of-legislative-results_files/figure-markdown/tn-rulers-1.png)
+
+### சட்டமன்றத் தொகுதி விவரங்கள்:
+
+1953 ஆம் ஆண்டில், மெட்ராஸ் மாநிலம் "தமிழ்நாடு" என்று மறுபெயரிடப்பட்டது மற்றும் மெட்ராஸ் மாநிலத்தின் சில பகுதிகள் பிரிக்கப்பட்டன.
+
+1. ஆந்திரா மாநிலமாக இன்றைய கரையோர ஆந்திரா மற்றும் ராயலசீமா பிரிக்கப்பட்டன
+2. தெற்கு கனரா மற்றும் பெல்லாரி மாவட்டம் பிரிக்கப்பட்டு மைசூர் மாநிலமாக அமைந்தது
+3. மலபார் மாவட்டம் பிரிக்கப்பட்டு கேரளா அமைக்கப்பட்டது 
+
+1951 தேர்தலின் போது மெட்ராஸ் மாநிலத்தில் 309 சட்டமன்றத் தொகுதிகள் இருந்தன. அவற்றில் 243 ஒற்றை உறுப்பினர் தொகுதிகள்(single-member constituencies) மற்றும் 66 இரட்டை உறுப்பினர் தொகுதிகள்(dual-member constituencies).
+
+### தமிழக முதல்வர்களின் பட்டியல்:
+
+தொடக்க தேதி, இறுதி தேதி, பதவியில் உள்ள நாட்களின் எண்ணிக்கை மற்றும் கட்சி பெயருடன் தமிழக முதல்வர்களின் பட்டியலை கீழே உள்ள அட்டவணை காட்டுகிறது.
+
+<img src="/politics/tn-over-view-of-legislative-results_files/figure-markdown/tn-chief-ministers-1.png" alt="alt text" class="blogs_image">
+
+\*.CSV வடிவத்தில் தகவல்களை [தமிழக முதல்வர்கள்](http://thedatatalks.in/datas/politics/tn-chief-ministers.csv) இலிருந்து பதிவிறக்கம் செய்யலாம்.
 
 <style>
     /* body{

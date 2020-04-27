@@ -16,17 +16,20 @@ altLang: true
 
 <img src="/others/gun-powder-chicken/_thumbnail.png" alt="alt text" class="blogs_image" style="width:25%">
 
-#### Ingredients
+## Ingredients:
+
 Chicken - 900gm (leg boneless) cut into cubes around 30gms  
 
-**For the marination:**  
+### For the marination: 
+
 Kashmiri chilli powder - 2 tbsp   
 Ginger garlic paste – 1 tbsp  
 Vinegar or lemon juice – 2tbsp  
 Chicken stock – 2 tbsp  
 Cornflour – 1 tbsp, mixed into 1 tbsp water  
 
-**For the main course**  
+### For the main course:
+
 Refined oil – 2Tbsp  
 Sombu/ fennel seeds – 1 tsp    
 Green chillies – 2 slit  
@@ -39,7 +42,7 @@ Spring onions – 1 bunch, cut into 2 ½ cm pieces
 Whole roasted peanuts- 50 gm  
 Red chilli sauce - 2 tsp    
 
-### Instructions
+## Instructions:
 
 Marinate the chicken with the ingredients mentioned and leave to sit for 1 hour. Marination gives extra flavour to the chicken, if you don’t have time to marinate need not worry. Mix the ingredients in a small bowl and set aside. 
 

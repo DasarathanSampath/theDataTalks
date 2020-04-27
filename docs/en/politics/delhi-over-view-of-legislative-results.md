@@ -1,16 +1,11 @@
 ---
 date: 17 Feb 2019
 desc: Ruling years of various parties and Legislative constituency details
-id: 'delhi-over-view-of-legislative-results'
 imgDesc: Image is a Pie chart and it shows the percentage ruling years of various parties
 name: 'delhi-over-view-of-legislative-results'
 noMainImage: True
-output:
-  md_document:
-    variant: 'markdown+backtick\_code\_blocks-fenced\_code\_attributes-header\_attributes'
 title: Over view of NCT of Delhi legislative results
-trans: 'டெல்லி-சட்டமன்ற -முடிவுகளின்-பார்வை'
-altLang: false
+altLang: true
 ---
 
 ### Ruling Parties:
@@ -34,7 +29,7 @@ Below is the time-line of the status of "NCT of Delhi":
 India (had no election in this period)\
 1966 to 1990 -- Delhi Metropolitan council under the direct control of
 Governor of Delhi (had three elections in 1972, 1977 & 1983)\
-From 1991 -- Formally known as NCT of Delhi which is an union territory
+From 1991 -- Formally known as NCT of Delhi which is a union territory
 and has its own legislatures (had 6 elections in 1993, 1998, 2003, 2008,
 2013 & 2015)
 
@@ -55,11 +50,11 @@ election.
 
 ### Legislative Constituency (LC):
 
-In 1951 election, Delhi had 42 constituencies out of which 6 were dual
+In the 1951 election, Delhi had 42 constituencies out of which 6 were dual
 member constituency & 36 were single member constituency. After the
-abolition of dual member constituency act in 1961, Delhi had 56
+abolition of the dual member constituency act in 1961, Delhi had 56
 constituencies. From 1993 election NCT of Delhi has 70 constituencies
-till date.
+to date.
 
 ### Delhi cheif ministers list:
 
